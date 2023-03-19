@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500&family=Cabin&family=M+PLUS+1p:wght@500&family=Mukta:wght@200;300&family=Play&family=Raleway:wght@300&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-wrapper{
+    background-color: rgb(122,98,179);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-wrapper{
+    background-color: white;
+    min-height: 80vh;
+    width: 65%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 75px 0;
+    padding-bottom: 30px;
+}
+
+.header{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header h1{
+    margin-bottom: 20px;
+    font-size: 64px;
+    width: 80%;
+    font-family: 'Baloo 2', cursive;
+}
+
+.header p{
+    color: rgb(90 70 139);
+    font-size: 20px;
+}
+
+.body{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    /* width: 80px; */
+    width: 190px;
+    cursor: pointer;
+}
+
+.option{
+    display:flex;
+    flex-direction: column;
+}
+
+.footer-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 146px;
+    margin-top: 35px;
+}
+
+.form-body{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2%;
+    grid-auto-columns: minmax(0,1fr);
+}
+
+.form-body input,.form-body textarea {
+    font-family: inherit;
+    width: 90%;
+    border: 0;
+    border-bottom: 2px solid gray;
+    outline: 0;
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 14px;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+
+.form-body label{
+    font-family: inherit;
+    font-size: 1rem;
+    color: rgb(122,98,179);
+
+}
+
+::placeholder{
+    color:rgb(122,98,179);
+    /* opacity: 0.8; */
+}
+
+input::-webkit-calendar-picker-indicator {
+    color: rgb(122,98,179);
+    opacity: 1
+  }
+  
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.heading{
+    margin-bottom: 48px;
+    text-align: center;
+    font-family: 'Baloo 2', cursive;
+    font-size: 23px;
+    color: rgb(122,98,179);
+}
+
+select{
+    padding: 3px;
+    margin-top: 5px;
+    border-radius: 5px;
+    color: black;
+    width: 175px;
+}
+
+.container-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.project-container{
+    margin: 20px 0 10px;
+    width: 85%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(122,98,179,0.5);
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner-box h4, .second-box h4{
+    font-family: 'Satisfy', cursive;
+    letter-spacing: 0.3px;
+}
+
+.inner-box p, .second-box p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.second-box{
+    margin-top: 10px;
+}
+
+.project-heading{
+    margin: 30px 0 10px;
+    font-family: 'Baloo 2', cursive;
+    font-size: 44px;
+    color: rgb(122,98,179);
+}
+
+.footer-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 146px;
+}
+
+.btn-1{
+    width: 195px;
+    letter-spacing: 1px;
+}
+
+.btn, .btn-1 {
+  background: rgb(122,98,179);
+  border-radius: 999px;
+  box-shadow: rgb(122,98,179) 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
